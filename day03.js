@@ -97,10 +97,18 @@
 // }
 
 //** Print even numbers 
-let i = 1;     
-for (i = 1; i <= 20; i++ ) {
-       if (i%2 ===0) {
-    console.log(i);
+// let i = 1;     
+// for (i = 1; i <= 20; i++ ) {
+//        if (i%2 ===0) {
+//     console.log(i);
    
-  }}
+//   }}
   
+// ** Countdown
+// Print numbers from 10 to 1
+
+for 
+(let i = 10; i >= 1; i--) {
+  console.log(i);
+
+}
