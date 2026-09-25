@@ -2,7 +2,7 @@
 
 // let name = 'faisal';
 // let age = 23;
-// let city = 'Dwarka';
+// let city = 'New Delhi';
 
 // console.log(`My name is ${name}`);
 // console.log(`I am ${age} years old`);
@@ -11,7 +11,7 @@
 
 // let name = 'faisal';
 // let age = 23;
-// let city = 'Dwarka';
+// let city = 'New Delhi';
 
 // console.log("My name is" + name);
 // console.log("I am "  + age +  " years old");
@@ -107,8 +107,18 @@
 // ** Countdown
 // Print numbers from 10 to 1
 
-for 
-(let i = 10; i >= 1; i--) {
-  console.log(i);
+// for 
+// (let i = 10; i >= 1; i--) {
+//   console.log(i);
 
+// }
+
+// **Multiplication table
+//Print the multiplication table of 5
+
+let n = 5;
+for (i = 1 ; i <= 10; i++) {
+  let result;
+  result = (`${n} * ${i} = ${n*i}`);
+   console.log(result);
 }
