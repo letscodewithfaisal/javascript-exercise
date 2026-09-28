@@ -7,7 +7,7 @@
 // console.log(a);
 
 
-//** Q-1 | Voting Eligibilty 
+//** Q- | Voting Eligibilty 
 // var age = 18;
 // if (age < 18) {
 //   console.log("You Cannot Vote");
@@ -64,13 +64,35 @@
 
 //** Q-6 | Even or Odd
 
-function checkEven(number) {
-  if (number % 2 == 0) {
-console.log("Even Number");
-  }
-  else {
-    console.log("Odd Number");
-  }
+// function checkEven(number) {
+//   if (number % 2 == 0) {
+// console.log("Even Number");
+//   }
+//   else {
+//     console.log("Odd Number");
+//   }
   
-}
-checkEven(17);
+// }
+// checkEven(17);
+
+//**  Level 2 — Think a little */
+
+// Printing Name
+// function greet () {
+
+//    let name =  prompt("Enter Your Name")
+
+//    console.log("Hello ", name);
+
+// }
+//  greet()
+
+// ** Multiple Parameter function
+
+ function Introduction (name, age, city) {
+console.log(name, age, city);
+// console.log (age);
+// console.log (city); 
+
+ }
+Introduction("Faisal Khan", 23, "Shubhas Nagar" );
