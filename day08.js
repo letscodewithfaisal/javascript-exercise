@@ -68,9 +68,21 @@
 
 //** 5. Create a function to calculate the total price: */
 
-function totalPrice(price, quantity) {
-  return price * quantity;
+// function totalPrice(price, quantity) {
+//   return price * quantity;
 
+// }
+
+// console.log((totalPrice(100, 3)));
+
+
+//** 6. Discount Calculator */
+function calculateDiscount(price, discountPercentage) {
+
+let discountAmount = (price * discountPercentage) / 100;
+
+let finalPrice = price - discountAmount;
+
+return finalPrice;
 }
-
-console.log((totalPrice(100, 3)));
+console.log(calculateDiscount(100, 10));
