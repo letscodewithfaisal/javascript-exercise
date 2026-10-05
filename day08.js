@@ -9,34 +9,42 @@
 
 //** 2. Calculate age  (DD/MM/YYYY) */
 
-function calculateAge(day, month, year) {
-  let currentDate = new Date();
+// function calculateAge(day, month, year) {
+//   let currentDate = new Date();
 
-  let birthDate = new Date(year, month -1, day);
+//   let birthDate = new Date(year, month -1, day);
 
-let years = currentDate.getFullYear() - birthDate.getFullYear();
-let months = currentDate.getMonth() - birthDate.getMonth();
-let days = currentDate.getDate() - birthDate.getDate();
+// let years = currentDate.getFullYear() - birthDate.getFullYear();
+// let months = currentDate.getMonth() - birthDate.getMonth();
+// let days = currentDate.getDate() - birthDate.getDate();
 
-// Adjust Days, If it is Negative
-if (days < 0) {
-  months--;
+// // Adjust Days, If it is Negative
+// if (days < 0) {
+//   months--;
 
-  let previousMonth = new Date(
-    currentDate.getFullYear(), 
-    currentDate.getMonth(), 
-    0);
+//   let previousMonth = new Date(
+//     currentDate.getFullYear(), 
+//     currentDate.getMonth(), 
+//     0);
 
 
-days += previousMonth.getDate();
-  }
+// days += previousMonth.getDate();
+//   }
 
-// Adjust Months, If it is Negative
-if(months < 0) {
-  years--;
-  month += 12;
+// // Adjust Months, If it is Negative
+// if(months < 0) {
+//   years--;
+//   month += 12;
+// }
+//   return `${years} years, ${months} months, ${days} days`;
+// }
+
+// console.log(calculateAge(24, 12, 1994));
+
+
+//** 3. Celsius → Fahrenheit */
+function toFarenheit(celcius) {
+
+  return (celcius * 9/5 + 32);
 }
-  return `${years} years, ${months} months, ${days} days`;
-}
-
-console.log(calculateAge(24, 12, 1994));
+console.log(toFarenheit(40));
