@@ -43,8 +43,25 @@
 
 
 //** 3. Celsius → Fahrenheit */
-function toFarenheit(celcius) {
+// function toFarenheit(celcius) {
 
-  return (celcius * 9/5 + 32);
+//   return (celcius * 9/5 + 32);
+// }
+// console.log(toFarenheit(40));
+
+//** 4. Positive, Negative, or Zero */
+
+function checkNumber(num) {
+  if (num > 0) {
+    return "Positive";
+  }
+  else if(num < 0) {
+    return "Negative";
+  }
+
+else {
+  return "Zero";
 }
-console.log(toFarenheit(40));
+}
+
+console.log(checkNumber(-99));
