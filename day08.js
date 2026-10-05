@@ -51,17 +51,26 @@
 
 //** 4. Positive, Negative, or Zero */
 
-function checkNumber(num) {
-  if (num > 0) {
-    return "Positive";
-  }
-  else if(num < 0) {
-    return "Negative";
-  }
+// function checkNumber(num) {
+//   if (num > 0) {
+//     return "Positive";
+//   }
+//   else if(num < 0) {
+//     return "Negative";
+//   }
 
-else {
-  return "Zero";
-}
+// else {
+//   return "Zero";
+// }
+// }
+
+// console.log(checkNumber(-99));
+
+//** 5. Create a function to calculate the total price: */
+
+function totalPrice(price, quantity) {
+  return price * quantity;
+
 }
 
-console.log(checkNumber(-99));
+console.log((totalPrice(100, 3)));
