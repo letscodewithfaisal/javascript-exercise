@@ -11,17 +11,31 @@
 //** Q.2 Find Largest of Three (10, 50, 30)
 // Without using Math.max():
 
-function findLargest(a, b, c) {
-  if (a > b && a>c) {
-    console.log(a);
-    }
-else if (b > c && b > a) {
-  console.log(b);
-}
-else {
-  console.log(c)
-  }
-  return findLargest;
-}
+// function findLargest(a, b, c) {
+//   if (a > b && a>c) {
+//     console.log(a);
+//     }
+// else if (b > c && b > a) {
+//   console.log(b);
+// }
+// else {
+//   console.log(c)
+//   }
+//   return findLargest;
+// }
 
-findLargest(10, 50, 30); // 50
+// findLargest(10, 50, 30); // 50
+
+//** Using Math.max() to find the Largest of three (a, b, c)
+// function largest(a, b, c) {
+//     return Math.max(a, b, c);
+// }
+
+// console.log(largest(400, 10, 300));
+
+//** Q.3 Count Digits 
+function countDigits(num) {
+  return num.toString().length;
+
+}
+console.log(countDigits(3747493)); // 7
