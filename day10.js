@@ -16,6 +16,12 @@
 // console.log(fruits.length);
 
 //** 4. Create a new array with every number doubled. */
-const number = [2, 5, 8, 9];
-let doubled = number.map(num => num*2);
-console.log(doubled);
+// const number = [2, 5, 8, 9];
+// let doubled = number.map(num => num*2);
+// console.log(doubled);
+
+
+//** 5. Push a Number */
+let arr = [10, 20];
+arr.push(30);
+console.log(arr); // [10, 20, 30] */
