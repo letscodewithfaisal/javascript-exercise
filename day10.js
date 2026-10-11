@@ -40,6 +40,23 @@
 
 //** 8. shift() — remove from the beginning */
 
-let arr = [10, 20, 30];
-arr.shift();
- console.log(arr); // [20, 30]
+// let arr = [10, 20, 30];
+// arr.shift();
+//  console.log(arr); // [20, 30]
+
+//** 9. forEach() — perform an action for every item */
+
+// let nums = [2, 4, 7, 9];
+
+// nums.forEach(function(num){
+//   console.log(num);
+  
+// });
+
+//** 10. forEach() — perform an action for every item */
+
+let fruits = ["Apple", "Mango", "Banana"];
+
+fruits.forEach((fruit, index) => {
+  console.log(index, fruit)
+})
