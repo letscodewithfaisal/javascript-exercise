@@ -31,8 +31,15 @@
 // arr.pop();
 // console.log(arr); // [10, 20]
 
-//** unshift() - add to the begining */
- let arr = [20, 30];
+//** 7. unshift() - add to the begining */
+//  let arr = [20, 30];
 
- arr.unshift(10);
- console.log(arr); // [10, 20, 30]
+//  arr.unshift(10);
+//  console.log(arr); // [10, 20, 30]
+
+
+//** 8. shift() — remove from the beginning */
+
+let arr = [10, 20, 30];
+arr.shift();
+ console.log(arr); // [20, 30]
