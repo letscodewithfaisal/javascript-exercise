@@ -21,7 +21,18 @@
 // console.log(doubled);
 
 
-//** 5. Push a Number */
-let arr = [10, 20];
-arr.push(30);
-console.log(arr); // [10, 20, 30] */
+//** 5. Push() - add to end */
+// let arr = [10, 20];
+// arr.push(30);
+// console.log(arr); // [10, 20, 30] */
+
+//** 6. Pop () - Remove from end */
+// const arr = [10, 20, 30];
+// arr.pop();
+// console.log(arr); // [10, 20]
+
+//** unshift() - add to the begining */
+ let arr = [20, 30];
+
+ arr.unshift(10);
+ console.log(arr); // [10, 20, 30]
