@@ -70,7 +70,24 @@
 
 //** 12. Add 5 to every number and print it */
 
-let numbers = [2, 3, 6, 9, 12];
-numbers.forEach(num => {
-  console.log(num + 5);
-});
+// let numbers = [2, 3, 6, 9, 12];
+// numbers.forEach(num => {
+//   console.log(num + 5);
+// });
+
+//** 13. Calculate the total */
+// let numbers = [10, 20, 30];
+// let total = 0;
+// numbers.forEach( num => {
+//   total = total + num;
+// })
+// console.log(total);
+
+//** Difference between forEach() and map() */
+let numbers = [1, 2, 3];
+
+let result1 = numbers.forEach(num => num * 2);
+let result2 = numbers.map(num => num * 2);
+
+console.log(result1); // undefined
+console.log(result2); // [2, 4, 6]
