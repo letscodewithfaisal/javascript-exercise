@@ -61,9 +61,16 @@
 //   console.log(index, fruit)
 // })
 
-//** Print every student's name */
-let students = ["Ali", "Aman", "Rahul"];
+//** 11. Print every student's name */
+// let students = ["Ali", "Aman", "Rahul"];
 
-students.forEach(students => {
- console.log("Hello " + students);
+// students.forEach(students => {
+//  console.log("Hello " + students);
+// });
+
+//** 12. Add 5 to every number and print it */
+
+let numbers = [2, 3, 6, 9, 12];
+numbers.forEach(num => {
+  console.log(num + 5);
 });
