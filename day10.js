@@ -84,10 +84,21 @@
 // console.log(total);
 
 //** Difference between forEach() and map() */
-let numbers = [1, 2, 3];
+// let numbers = [1, 2, 3];
 
-let result1 = numbers.forEach(num => num * 2);
-let result2 = numbers.map(num => num * 2);
+// let result1 = numbers.forEach(num => num * 2);
+// let result2 = numbers.map(num => num * 2);
 
-console.log(result1); // undefined
-console.log(result2); // [2, 4, 6]
+// console.log(result1); // undefined
+// console.log(result2); // [2, 4, 6]
+
+// What will this code print?
+// [1, 2, 3].forEach(num => console.log(num + 1));
+
+//** 14.Print Fruits with its index  */
+
+let fruits = ["Apple", "Mango", "Banana"];
+fruits.forEach( (fruit, index, arr) =>  {
+  console.log( fruit, index, arr,);
+
+})
