@@ -8,7 +8,7 @@
 
 // console.log(number[1]);
 
-//** 3. Add 40 to the end of this array. */
+//** 3. Find the Length of this array. */
 
 // const fruits = ['Banana', 'Grapes', 'Apple', 'Mango', 'Orange', 'Dragon'];
 
@@ -55,8 +55,15 @@
 
 //** 10. forEach() — perform an action for every item */
 
-let fruits = ["Apple", "Mango", "Banana"];
+// let fruits = ["Apple", "Mango", "Banana"];
 
-fruits.forEach((fruit, index) => {
-  console.log(index, fruit)
-})
+// fruits.forEach((fruit, index) => {
+//   console.log(index, fruit)
+// })
+
+//** Print every student's name */
+let students = ["Ali", "Aman", "Rahul"];
+
+students.forEach(students => {
+ console.log("Hello " + students);
+});
