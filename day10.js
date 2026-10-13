@@ -136,13 +136,59 @@
 // console.log(largest);
 
 //** 18. Find the smallest number */
-let numbers = [50, 12, 78, 5, 34];
+// let numbers = [50, 12, 78, 5, 34];
 
-let smallest = numbers[0];
+// let smallest = numbers[0];
 
-numbers.forEach(num => {
+// numbers.forEach(num => {
   
-  if (num < smallest){
-   smallest = num; }
-});
-console.log(smallest);
+//   if (num < smallest){
+//    smallest = num; }
+// });
+// console.log(smallest);
+
+//** Q19. Count numbers greater than 20 */
+
+// let numbers = [10, 25, 30, 5, 40, 15];
+
+// let count = 0;
+
+// numbers.forEach(num => { 
+//   if (num > 20){
+//  count++;
+//   }
+ 
+// });
+// console.log(count);
+
+//** 20. Print User Name */
+
+// let users = [
+//   { name: "Rehan", age: 20 },
+//   { name: "Ali", age: 32 }, 
+//   {name: "Aman", age: 25}
+// ];
+
+// users.forEach(user => {
+//  console.log(user.name); 
+// });
+
+
+//** 21. Print users older than 22  */
+let users = [
+    { name: "Ali", age: 22 },
+    { name: "Rahul", age: 25 },
+    { name: "Aman", age: 21 },
+    { name: "Sara", age: 27 }
+];
+
+
+
+users.forEach(user => {  
+  if (user.age > 22) {
+
+  console.log(user.name);
+  }});
+
+
+
