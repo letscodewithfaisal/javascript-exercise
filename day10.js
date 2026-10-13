@@ -97,8 +97,52 @@
 
 //** 14.Print Fruits with its index  */
 
-let fruits = ["Apple", "Mango", "Banana"];
-fruits.forEach( (fruit, index, arr) =>  {
-  console.log( fruit, index, arr,);
+// let fruits = ["Apple", "Mango", "Banana"];
+// fruits.forEach( (fruit, index, arr) =>  {
+//   console.log( fruit, index, arr,);
 
-})
+// })
+
+//** 15. Count even numbers */
+
+// let numbers = [1, 2, 4, 7, 8, 10, 13];
+
+// let count = 0;
+
+// numbers.forEach( (num => {
+//   if ( num % 2 == 0) {
+//     count++;
+//   }
+// }))
+// console.log(count);
+
+
+//** 16. Add 10 to every number */
+
+// let numbers = [5, 10, 15, 20];
+
+// numbers.forEach( num => {
+//   console.log(num + 10) });
+  
+
+//** 17. Find the largest number */
+// let numbers = [10, 45, 23, 89, 12];
+// let largest = numbers[0];
+// numbers.forEach( num => {
+// if (num > largest) {
+//   largest = num;
+// }
+// });
+// console.log(largest);
+
+//** 18. Find the smallest number */
+let numbers = [50, 12, 78, 5, 34];
+
+let smallest = numbers[0];
+
+numbers.forEach(num => {
+  
+  if (num < smallest){
+   smallest = num; }
+});
+console.log(smallest);
