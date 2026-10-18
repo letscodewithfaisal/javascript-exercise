@@ -61,13 +61,24 @@
 
 //** Q.1 Count numbers greater than 50 !
 
-let numbers = [25, 60, 45, 80, 90, 30, 75];
-let count = 0;
+// let numbers = [25, 60, 45, 80, 90, 30, 75];
+// let count = 0;
 
-numbers.forEach((num) => {
-    if (num > 50) {
-        count++;
-    }
-});
+// numbers.forEach((num) => {
+//     if (num > 50) {
+//         count++;
+//     }
+// });
 
-console.log(count);
+// console.log(count);
+
+
+//** Q.2 Calculate the total */
+
+let prices = [100, 250, 50, 300, 150];
+
+let total = prices.reduce((sum, price) => {
+    return sum + price;
+}, 0);
+
+console.log(total);
