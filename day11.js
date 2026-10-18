@@ -85,15 +85,30 @@
 
 //** Q.3 Find expensive products */
 
-let products = [
-    { name: "Laptop", price: 60000 },
-    { name: "Mouse", price: 1000 },
-    { name: "Phone", price: 25000 },
-    { name: "Keyboard", price: 3000 }
+// let products = [
+//     { name: "Laptop", price: 60000 },
+//     { name: "Mouse", price: 1000 },
+//     { name: "Phone", price: 25000 },
+//     { name: "Keyboard", price: 3000 }
+// ];
+
+// let result = products.filter((product) => {
+//     return product.price > 10000;
+// });
+
+// console.log(result);
+
+
+//**  Get only usernames */
+
+let users = [
+    { username: "faisal", age: 22 },
+    { username: "rahul", age: 24 },
+    { username: "aman", age: 21 }
 ];
 
-let result = products.filter((product) => {
-    return product.price > 10000;
+let usernames = users.map((user) => {
+    return user.username;
 });
 
-console.log(result);
+console.log(usernames);
