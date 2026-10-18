@@ -75,10 +75,25 @@
 
 //** Q.2 Calculate the total */
 
-let prices = [100, 250, 50, 300, 150];
+// let prices = [100, 250, 50, 300, 150];
 
-let total = prices.reduce((sum, price) => {
-    return sum + price;
-}, 0);
+// let total = prices.reduce((sum, price) => {
+//     return sum + price;
+// }, 0);
 
-console.log(total);
+// console.log(total);
+
+//** Q.3 Find expensive products */
+
+let products = [
+    { name: "Laptop", price: 60000 },
+    { name: "Mouse", price: 1000 },
+    { name: "Phone", price: 25000 },
+    { name: "Keyboard", price: 3000 }
+];
+
+let result = products.filter((product) => {
+    return product.price > 10000;
+});
+
+console.log(result);
