@@ -38,8 +38,36 @@
 // const newArr = myArr.flat();
 
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-fruits.splice(2, 0, "Lemon", "Kiwi");
+// fruits.splice(2, 0, "Lemon", "Kiwi");
 
-console.log(fruits);
+// console.log(fruits);
+
+
+//** High Order Function */
+
+// function meraPyaraFunction(udharKaFunction) {
+
+//   return udharKaFunction() + 40;
+// }
+
+// function cartoon() {
+//   return 10;
+// }
+
+// console.log(meraPyaraFunction(cartoon));
+
+
+//** Q.1 Count numbers greater than 50 !
+
+let numbers = [25, 60, 45, 80, 90, 30, 75];
+let count = 0;
+
+numbers.forEach((num) => {
+    if (num > 50) {
+        count++;
+    }
+});
+
+console.log(count);
