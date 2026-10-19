@@ -16,13 +16,25 @@
 
 //** Create a  Delayed callback function */
 
-function fetchData(callback) {
-  setTimeout(() => {
-    callback("Data received");
-  }, 2000);
-}
+// function fetchData(callback) {
+//   setTimeout(() => {
+//     callback("Data received");
+//   }, 2000);
+// }
 
-fetchData((data) => {
+// fetchData((data) => {
+//   console.log(data);
+// });
+
+//** Promise : `1` */
+
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Data loaded successfully");
+  }, 2000);
+});
+
+promise.then((data) => {
   console.log(data);
 });
 
