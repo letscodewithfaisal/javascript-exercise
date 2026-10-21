@@ -26,15 +26,30 @@
 //   console.log(data);
 // });
 
-//** Promise : `1` */
+// function sayHello() {
+//   return "Hello World";
+// }
 
-const promise = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("Data loaded successfully");
-  }, 2000);
-});
+// let message = sayHello();
 
-promise.then((data) => {
-  console.log(data);
-});
+//**SetTime Out */
 
+// function sayHello() {
+//     console.log("Hello Faisal");
+// }
+
+// setTimeout(sayHello, 3000);
+
+
+//** Multiple Parameter */
+setTimeout(() => {
+    console.log("Hello");
+}, 1000);
+
+setTimeout(() => {
+    console.log("Welcome to JavaScript");
+}, 2000);
+
+setTimeout(() => {
+    console.log("Keep Learning");
+}, 3000);

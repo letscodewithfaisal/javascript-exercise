@@ -175,20 +175,20 @@
 
 
 //** 21. Print users older than 22  */
-let users = [
-    { name: "Ali", age: 22 },
-    { name: "Rahul", age: 25 },
-    { name: "Aman", age: 21 },
-    { name: "Sara", age: 27 }
-];
+// let users = [
+//     { name: "Ali", age: 22 },
+//     { name: "Rahul", age: 25 },
+//     { name: "Aman", age: 21 },
+//     { name: "Sara", age: 27 }
+// ];
 
 
 
-users.forEach(user => {  
-  if (user.age > 22) {
+// users.forEach(user => {  
+//   if (user.age > 22) {
 
-  console.log(user.name);
-  }});
+//   console.log(user.name);
+//   }});
 
 
 

@@ -116,9 +116,20 @@
 // **Multiplication table
 //Print the multiplication table of 5
 
-let n = 5;
-for (i = 1 ; i <= 10; i++) {
-  let result;
-  result = (`${n} * ${i} = ${n*i}`);
-   console.log(result);
-}
+// let n = 5;
+// for (i = 1 ; i <= 10; i++) {
+//   let result;
+//   result = (`${n} * ${i} = ${n*i}`);
+//    console.log(result);
+// }
+
+// ** Conditions + Loops
+// Calculate the sum of numbers from 1 to 10.
+
+// let sum = 0;
+// for (let i = 1; i <= 10; i++ ){
+//  if result = (i + sum) {
+
+//  }
+// }
+
