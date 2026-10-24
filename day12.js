@@ -41,15 +41,37 @@
 // setTimeout(sayHello, 3000);
 
 
-//** Multiple Parameter */
-setTimeout(() => {
-    console.log("Hello");
-}, 1000);
+//** Multiple Timeout */
+// setTimeout(() => {
+//     console.log("Hello");
+// }, 1000);
 
-setTimeout(() => {
-    console.log("Welcome to JavaScript");
-}, 2000);
+// setTimeout(() => {
+//     console.log("Welcome to JavaScript");
+// }, 2000);
 
-setTimeout(() => {
-    console.log("Keep Learning");
-}, 3000);
+// setTimeout(() => {
+//     console.log("Keep Learning");
+// }, 3000);
+
+//** Practice setTimeout: 1 */
+
+// myDisplay("Start");
+// setTimeout(function() {myDisplahy})
+
+const nums = [1, 2, 3, 4, 5, 6];
+
+let result = nums.map((e) => e * 3);
+console.log(result);
+
+function map(fn) {
+  const result = [];
+
+  for (i = 0; i < nums; i++) {
+    const currentElement = nums [i];
+    const num = fn(currentElement);
+    result.push(num);
+  }
+
+  return result;
+}
