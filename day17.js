@@ -37,10 +37,63 @@
 // console.log(void 0);
 // console.log(void "faisal");
 
-const spellCard = `
+// const spellCard = `
 
-++======================
+// ++======================
 
-| spell: $(myDataValue) |`;
+// | spell: $(myDataValue) |`;
 
-console.log(typeof spellCard);
+// console.log(typeof spellCard);
+
+
+//** conditionals */
+
+// const playerHealth = 755
+// const hasSheild = true
+// const hasSword = false
+
+// if (playerHealth <= 30 && hasSheild ) {
+//   console.log(yes);
+// }
+
+
+// let x1 = 34.00;
+// let x2 = 34;
+// let color = "Yellow";
+// let x = 12345n;
+// let y = BigInt("1234567890123456789012345");
+// let x = true;
+// let y = false;
+// const person = {
+//   firstName:"John",
+//    lastName:"Doe",
+//    city: "Gurugram",
+//    age: 28,
+//    Status: "Married",
+//    Job_Role: "SWE2"
+//   };
+// let age = null
+// let personWeight = 'undefine'
+//  x === undefined
+// let plusInMath = Symbol
+// const date = new Date("2022-03-25");
+// const cars = ["Saab", "Volvo", "BMW"];
+
+// console.log(typeof x1);
+// console.log(typeof x2);
+// console.log(typeof color);
+// console.log(typeof x);
+// person.Religion = "MUSLIM";
+// person.age = "none";
+// console.log(person);
+// console.log(typeof personWeight);
+// console.log(typeof plusInMath);
+// console.log(typeof date);
+// console.log(typeof cars);
+// console.log(typeof (3 + 4) );
+//  console.log(typeof 0);          
+// console.log(typeof (314) );          
+// console.log(typeof (3.14));          
+ console.log(typeof (3));   
+
+
